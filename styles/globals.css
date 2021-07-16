@@ -14,3 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.active {
+  color: #fff;
+}
+
+.active-icon {
+  color: #f0f !important
+}
+
+.sidebar-items {
+  color: gray;
+  font-size: large;
+}
+
+.sidebar-items p {
+  margin-left: 1em;
+}
+
+.sidebar-items:hover p {
+  color: #fff
+}
+
+.sidebar-items:hover svg {
+  color: #f0f;
+}
+
+.sidebar-items:not(:last-child) {
+  margin-bottom: 1.5em;
+}
